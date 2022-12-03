@@ -1,6 +1,8 @@
 
 import './App.css';
-import login from './login';
+import log from './login.js';
+
+
 
 function App() {
   return (
@@ -14,8 +16,8 @@ function App() {
         <input className='form' placeholder='confirm password'/>
 
       </form>
-      <button className='btn1'>Register</button> <br></br> <br></br>
-      <button  onClick={login}     className='btn2'>Member Login</button> <br></br>
+      <button  className='btn1'>Register</button> <br></br> <br></br>
+      <button     onClick={log}  className='btn2'>Member Login</button> <br></br>
     </div>
   );
 }
